@@ -2,15 +2,12 @@
 numero = 1
 while numero >= 0:
   numero = int(input('Digite um numero para saber o seu fatorial: '))
-  if numero > 0:
+  if numero > 2:
     fatorial = 1
     for item in range(1,numero +1):
       fatorial = fatorial * item
     print('O Fatorial de ',numero,'!: ',fatorial)
-  elif numero == 0:
-    fatorial  = 1
-    print('O Fatorial de ',numero,'!: ',fatorial)
-  elif numero == 1:
+  elif numero == 0 or numero == 1:
     fatorial  = 1
     print('O Fatorial de ',numero,'!: ',fatorial)
   else:
