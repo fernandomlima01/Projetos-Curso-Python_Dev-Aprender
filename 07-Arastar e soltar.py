@@ -1,6 +1,6 @@
 # Arrastar e soltar arquivos
 # Tela NoteBook 2560 x 1600
-# dividido tela ao meio (esquerda = VS Code, direita = 2 explorador de arquivos, em cima e em baixo)
+# dividido tela ao meio (esquerda = explorador de arquivos 1, direita = explorador de arquivos 2)
 # o VS Code começara maximizado
 import pyautogui
 from time import sleep   # Biblioteca para pausa entre clicks
