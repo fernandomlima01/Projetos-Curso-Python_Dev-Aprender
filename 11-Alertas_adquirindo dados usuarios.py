@@ -17,9 +17,15 @@ if confirmacao == 'Sim':
 
     senha = pyautogui.password(text='Digite sua Senha',title='Dados Login',mask='*')
     print(f'A Senha digitada foi: {senha}')
-
+    
+    #Abrindo Bloco de Notas (Rascunho.txt)
+    pyautogui.press('winleft')
+    sleep(1)
+    pyautogui.typewrite(r'C:\Users\ferna\Documents\Rascunho.txt')
+    pyautogui.press('enter')
+    
     # Indo até o Bloco de Notas 
-    pyautogui.click(1320,140,duration=2)
+    pyautogui.click(1500,230,duration=2)
     sleep(1)
 
     #Colando o email
