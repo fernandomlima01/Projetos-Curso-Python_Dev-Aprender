@@ -32,4 +32,3 @@ if confirmacao == 'Sim':
 else:
     pyautogui.alert(text='Programa Finalizado',title='Aviso!')
     print('Programa Finalizado')
-
